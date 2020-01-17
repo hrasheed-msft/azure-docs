@@ -24,7 +24,7 @@ Internally, HDInsight is implemented by several Azure Virtual Machines (the node
 > If you do not specify an Azure Virtual Network as a configuration option for HDInsight, one is created automatically. However, you can't join other machines (such as other Azure Virtual Machines or your client development machine) to this virtual network.
 
 To join additional machines to the virtual network, you must create the virtual network first, and then specify it when creating your HDInsight cluster. For more information, see [Plan a virtual network for HDInsight](hdinsight-plan-virtual-network-deployment.md).
-
+ddsafd
 ## Public ports
 
 All the nodes in an HDInsight cluster are located in an Azure Virtual Network, and can't be directly accessed from the internet. A public gateway provides internet access to the following ports, which are common across all HDInsight cluster types.
